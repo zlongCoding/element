@@ -1,7 +1,9 @@
 # element
 vue element 兼容思路
 
-看element中在 DateTimePicker组件 无法 step，[官方解释](https://github.com/ElemeFE/element/issues/9878)。
+> element DateTimePicker step
+
+看element 中在 DateTimePicker组件 无法 step，[官方解释](https://github.com/ElemeFE/element/issues/9878)。
 正好公司同事也遇见这个问题，这个提供一种思路。
 > 如果有缘人能够搜索到希望对你有用。
 
@@ -16,3 +18,4 @@ vue element 兼容思路
 
 ## 请注意
 如果时间很紧，然后我们引入了第三方的库，如果第三方本身的方法不支持你的需求，那么这个时候你就需要考虑使用原生js来修改了。
+
